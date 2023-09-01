@@ -27,164 +27,179 @@ export default function Carrinho() {
         <Text style={estilos.titulocarrinho}>Produtos disponíveis</Text>
         <Text style={estilos.categoria}>Perfumes:</Text>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Cardamom} />
-          <Text style={estilos.nomeProduto}>The Blend Cardamom</Text>
-          <Text style={estilos.preco}>R$ 289,89</Text>
-          <Text style={estilos.descricao}>
-            The Blend Cardamom foi atrás do equilíbrio perfeito entre o calor e
-            o frescor. Dessa obstinação, nasceu a fragrância que combina o
-            coração quente da marca
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>The Blend Cardamom</Text>
+            <Text style={estilos.preco}>R$ 289,89</Text>
+            <Text style={estilos.descricao}>
+              The Blend Cardamom foi atrás do equilíbrio perfeito do calor e o
+              frescor.
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Elyse} />
-          <Text style={estilos.nomeProduto}>Elysée Succès Eau de Parfum</Text>
-          <Text style={estilos.preco}>R$ 219,89</Text>
-          <Text style={estilos.descricao}>
-            Elysée Succès Eau de Parfum te incentiva a ser fiel a si mesma,
-            sendo forte e original para conquistar o seu lugar de sucesso.
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>Elysée Succès Eau de Parfum</Text>
+            <Text style={estilos.preco}>R$ 219,89</Text>
+            <Text style={estilos.descricao}>
+              Te incentiva a ser fiel a si mesma, sendo forte e original para
+              conquistar o seu lugar de sucesso.
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Florata} />
-          <Text style={estilos.nomeProduto}>
-            Floratta Blue Desodorante Colônia
-          </Text>
-          <Text style={estilos.preco}>R$ 129,90</Text>
-          <Text style={estilos.descricao}>
-            Uma fragrância essencialmente feminina, o Floratta Blue Desodorante
-            Colônia inspira felicidade, amor e positividade.
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Floratta Blue Desodorante Colônia
+            </Text>
+            <Text style={estilos.preco}>R$ 129,90</Text>
+            <Text style={estilos.descricao}>
+              Uma fragrância essencialmente feminina, o Floratta Blue
+              Desodorante Colônia inspira felicidade, amor e positividade.
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Egeo} />
-          <Text style={estilos.nomeProduto}>Egeo Red Desodorante Colônia</Text>
-          <Text style={estilos.preco}>R$ 129,90</Text>
-          <Text style={estilos.descricao}>
-            O Egeo Red traz o cheiro licoroso do Rum, com o doce das frutas e o
-            colorido das flores. Uma combinação perfeita para uma fragrância
-            feminina intensa, deliciosa e viciante!
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Egeo Red Desodorante Colônia
+            </Text>
+            <Text style={estilos.preco}>R$ 129,90</Text>
+            <Text style={estilos.descricao}>
+              Traz o cheiro licoroso do Rum, com o doce das frutas e o colorido
+              das flores.
+            </Text>
+          </View>
         </View>
 
         <Text style={estilos.categoria}>Hidratantes:</Text>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Deleite} />
-          <Text style={estilos.nomeProduto}>
-            Loção Hidratante Desodorante Corporal Cuide-Se Bem Deleite 400m{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 62,90</Text>
-          <Text style={estilos.descricao}>
-            Uma fragrância doce e envolvente, aliada a textura cremosa do leite,
-            que envolve a pele em um abraço aconchegante enquanto hidrata
-            intensamente.
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Loção Hidratante Desodorante Corporal Cuide-Se Bem Deleite 400m
+            </Text>
+            <Text style={estilos.preco}>R$ 62,90</Text>
+            <Text style={estilos.descricao}>
+              Uma fragrância doce e envolvente.
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Buballo} />
-          <Text style={estilos.nomeProduto}>
-            Loção Hidratante Desodorante Corporal Cuide-se Bem Bubbaloo Uva
-            400ml{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 62,90</Text>
-          <Text style={estilos.descricao}>
-            Loção Hidratante Desodorante Corporal Cuide-se Bem Bubbaloo é um
-            delicioso hidratante corporal que deixa sua pele macia, sedosa e
-            perfumada com cheirinho inconfundível de Bubbaloo Uva.
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Loção Hidratante Desodorante Corporal Cuide-se Bem Bubbaloo Uva
+              400ml
+            </Text>
+            <Text style={estilos.preco}>R$ 62,90</Text>
+            <Text style={estilos.descricao}>
+              Delicioso hidratante corporal que deixa sua pele macia, sedosa e
+              perfumada com cheirinho inconfundível de Bubbaloo Uva.
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Liz} />
-          <Text style={estilos.nomeProduto}>
-            Creme Desodorante Hidratante Corporal Liz 250g{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 59,90</Text>
-          <Text style={estilos.descricao}>
-            O creme hidratante desodorante possui rápida absorção, sem deixar a
-            pele pegajosa. Um cuidado adicional que traz a mesma fragrância da
-            colônia, para envolver seu corpo da maneira que ele merece!
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Creme Desodorante Hidratante Corporal Liz 250g
+            </Text>
+            <Text style={estilos.preco}>R$ 59,90</Text>
+            <Text style={estilos.descricao}>
+              Um cuidado adicional que traz a mesma fragrância da colônia, para
+              envolver seu corpo da maneira que ele merece!
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Biscoito} />
-          <Text style={estilos.nomeProduto}>
-            Loção Hidratante Desodorante Corporal Cuide-se Bem Biscoito ou
-            Bolacha 400ml{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 62,90</Text>
-          <Text style={estilos.descricao}>
-            Sua textura leve e cremosa traz uma hidratação potente para deixar
-            sua pele super gostosa. Com cheirinho de baunilha e chocolate, deixa
-            a pele macia e perfumada com uma fragrância gourmand doce e
-            divertida.
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Loção Hidratante Desodorante Corporal Cuide-se Bem Biscoito ou
+              Bolacha 400ml
+            </Text>
+            <Text style={estilos.preco}>R$ 62,90</Text>
+            <Text style={estilos.descricao}>
+              Com cheirinho de baunilha e chocolate, deixa a pele macia e
+              perfumada com uma fragrância gourmand doce e divertida.
+            </Text>
+          </View>
         </View>
 
         <Text style={estilos.categoria}>Produtos para o cabelo:</Text>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Shampoo} />
-          <Text style={estilos.nomeProduto}>
-            Shampoo Match Tônico do Crescimento, 250ml{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 29,90</Text>
-          <Text style={estilos.descricao}>
-            Muitos fatores podem impedir o crescimento dos cabelos, inclusive a
-            quebra excessiva devido à fragilidade dos fios. Amamos cabelos
-            curtos e longos, mas sabemos que não há nada melhor do que desejar
-            que os fios cresçam e ver resultados rápidos.
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Shampoo Match Tônico do Crescimento, 250ml
+            </Text>
+            <Text style={estilos.preco}>R$ 29,90</Text>
+            <Text style={estilos.descricao}>
+              Muitos fatores podem impedir o crescimento dos cabelos, inclusive
+              a quebra excessiva devido à fragilidade dos fios.
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Condicionador} />
-          <Text style={estilos.nomeProduto}>
-            Condicionador Match Science Crescimento 250ml{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 47,90</Text>
-          <Text style={estilos.descricao}>
-            O Condicionador Match Science Crescimento entrega cabelos
-            hidratados, macios, fortes, desembaraçados com facilidade e com
-            redução significativa da quebra e da queda. Sua fórmula com Baicapil
-            ® e Óleo de Rícino garante crescimento saudável, nutrição intensa,
-            brilho e maciez para seus fios, da raíz às pontas.
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Condicionador Match Science Crescimento 250ml
+            </Text>
+            <Text style={estilos.preco}>R$ 47,90</Text>
+            <Text style={estilos.descricao}>
+              Condicionador Match Science Crescimento entrega cabelos
+              hidratados, macios, fortes, desembaraçados com facilidade e com
+              redução significativa da quebra e da queda.
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Creme} />
-          <Text style={estilos.nomeProduto}>
-            Creme de Pentear Match Esquadrão do Brilho 150ml{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 34,90</Text>
-          <Text style={estilos.descricao}>
-            O creme de pentear da Match Brilho possui o efeito capa de chuva e
-            também garante a proteção térmica dos fios para que você possa usar
-            secador e chapinha sem perder o brilho nas madeixas!
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              Creme de Pentear Match Esquadrão do Brilho 150ml
+            </Text>
+            <Text style={estilos.preco}>R$ 34,90</Text>
+            <Text style={estilos.descricao}>
+              O creme de pentear da Match Brilho possui o efeito capa de chuva e
+              também garante a proteção térmica dos fios para que você possa
+              usar secador e chapinha sem perder o brilho nas madeixas!
+            </Text>
+          </View>
         </View>
 
-        <View>
+        <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Combo} />
-          <Text style={estilos.nomeProduto}>
-            Combo Match Cronograma Capilar: Máscara Crescimento 250g + Máscara
-            Nutrição 250g + Máscara Reconstrução 250g{" "}
-          </Text>
-          <Text style={estilos.preco}>R$ 153,50</Text>
-          <Text style={estilos.descricao}>
-            O Combo Match Cronograma Capilar apresenta os cuidados necessários
-            para um cabelo saudável e bonito: uma Máscara Crescimento, uma
-            Máscara Nutrição e uma Máscara Reconstrução para um cronograma
-            capilar potente e eficaz nos cuidados com seus fios
-          </Text>
+          <View>
+            <Text style={estilos.nomeProduto}>
+              
+              Combo Match Cronograma Capilar: Máscara Crescimento 250g + Máscara
+              Nutrição 250g + Máscara Reconstrução 250g
+            </Text>
+            <Text style={estilos.preco}>R$ 153,50</Text>
+            <Text style={estilos.descricao}>
+              O Combo Match Cronograma Capilar apresenta os cuidados necessários
+              para um cabelo saudável e bonito: uma Máscara Crescimento, uma
+              Máscara Nutrição e uma Máscara Reconstrução para um cronograma
+              capilar potente e eficaz nos cuidados com seus fios
+            </Text>
+          </View>
         </View>
       </View>
     </>
@@ -209,6 +224,7 @@ const estilos = StyleSheet.create({
   },
 
   titulocarrinho: {
+    left: 3,
     fontSize: 26,
     lineHeight: 42,
     color: "#464646",
@@ -218,13 +234,6 @@ const estilos = StyleSheet.create({
   carrinho: {
     paddingVertical: 8,
     paddingHorizontal: 16,
-  },
-
-  nomefazenda: {
-    fontSize: 16,
-    lineHeight: 26,
-    marginLeft: 12,
-    fontFamily: "MontserratBold",
   },
 
   imagemFazenda: {
@@ -238,34 +247,42 @@ const estilos = StyleSheet.create({
   },
 
   descricao: {
+    maxWidth: 250,
+    left: 10,
     color: "#a3a3a3",
     fontStyle: "italic",
   },
 
   preco: {
+    left: 10,
     fontSize: 26,
     lineHeight: 42,
     color: "#2a9f85",
-    marginTop: 8,
   },
 
   imagemProduto: {
+
     width: 92,
-    height: 92,
-    marginTop: 20,
+    height: 110,
+    borderRadius: 5,
   },
 
   nomeProduto: {
+    maxWidth: 250,
+    left: 10,
     fontSize: 18,
     lineHeight: 26,
   },
 
   divProduto: {
+    backgroundColor: "#F7F7F7",
+    maxWidth: 370,
     flexDirection: "row",
-    marginTop: 25,
+    marginTop: 20,
   },
 
   categoria: {
+    borderRadius: 10,
     fontSize: 20,
     lineHeight: 42,
     color: "#464646",
