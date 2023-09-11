@@ -16,6 +16,8 @@ import Condicionador from "../../../assets/condicionador.png";
 import Creme from "../../../assets/creme.png";
 import Combo from "../../../assets/combo.png";
 
+import {CgSearch} from 'react-icons/cg';
+
 const width = Dimensions.get("screen").width;
 
 export default function Carrinho() {
@@ -249,7 +251,7 @@ const estilos = StyleSheet.create({
   descricao: {
     maxWidth: 250,
     left: 10,
-    color: "#a3a3a3",
+    color: "#535252",
     fontStyle: "italic",
   },
 
@@ -275,10 +277,11 @@ const estilos = StyleSheet.create({
   },
 
   divProduto: {
-    backgroundColor: "#F7F7F7",
+    backgroundColor: "#FBEBFD",
     maxWidth: 370,
     flexDirection: "row",
     marginTop: 20,
+    borderRadius: 15
   },
 
   categoria: {
