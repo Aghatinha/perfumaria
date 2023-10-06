@@ -16,13 +16,16 @@ import Condicionador from "../../../../assets/condicionador.png";
 import Creme from "../../../../assets/creme.png";
 import Combo from "../../../../assets/combo.png";
 
-import {CgSearch} from 'react-icons/cg';
+type Props= {
+  descricao: string,
+  descricao3: string,
+  descricao2: string;
+}
 
-export default function Produto() {
+export default function Produto({descricao, descricao3, descricao2}: Props) {
     return <>
      <View style={estilos.carrinho}>
-        <Text style={estilos.titulocarrinho}>Produtos disponíveis</Text>
-        <Text style={estilos.categoria}>Perfumes:</Text>
+        <Text style={estilos.categoria}>{descricao}</Text>
 
         <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Cardamom} />
@@ -76,7 +79,7 @@ export default function Produto() {
           </View>
         </View>
 
-        <Text style={estilos.categoria}>Hidratantes:</Text>
+        <Text style={estilos.categoria}>{descricao3}</Text>
 
         <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Deleite} />
@@ -135,7 +138,7 @@ export default function Produto() {
           </View>
         </View>
 
-        <Text style={estilos.categoria}>Produtos para o cabelo:</Text>
+        <Text style={estilos.categoria}>{descricao2}</Text>
 
         <View style={estilos.divProduto}>
           <Image style={estilos.imagemProduto} source={Shampoo} />
